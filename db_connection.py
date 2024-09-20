@@ -1,4 +1,3 @@
-# Bibliotecas: mysq-connector-python e python-dotenv
 import mysql.connector as connector
 import os
 from dotenv import load_dotenv
