@@ -20,18 +20,18 @@ USE `mydb` ;
 -- -----------------------------------------------------
 -- Table `mydb`.`Pro_rurais`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `mydb`.`Pro_rurais` (
+CREATE TABLE IF NOT EXISTS `mydb`.`properties` (
   `id` INT NOT NULL,
-  `nome_pro` VARCHAR(45) NOT NULL,
-  `dono_pro` VARCHAR(45) NOT NULL,
-  `cep` INT NOT NULL,
-  `cidade` VARCHAR(45) NULL,
-  `estado` VARCHAR(45) NULL,
-  `numero` INT NULL,
-  `rua` VARCHAR(45) NULL,
-  `agrotoxico` VARCHAR(45) NOT NULL,
-  `plantacao` VARCHAR(45) NULL,
-  `nivel` INT NOT NULL,
+  `name` VARCHAR(45) NOT NULL,
+  `owner` VARCHAR(45) NOT NULL,
+  `postalCode` INT NOT NULL,
+  `city` VARCHAR(45) NULL,
+  `state` VARCHAR(45) NULL,
+  `number` INT NULL,
+  `street` VARCHAR(45) NULL,
+  `pesticide` VARCHAR(45) NOT NULL,
+  `plantation` VARCHAR(45) NULL,
+  `role` INT NOT NULL,
   PRIMARY KEY (`id`))
 ENGINE = InnoDB;
 
